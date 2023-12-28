@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+
+  # PHP Service
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www/html
+    networks:
+      - app-network
+
+  # Nginx Service
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8080:80" # Expose Nginx on port 8080 of the host machine
+    volumes:
+      - ./nginx:/etc/nginx/conf.d # Mount the Nginx config
+      - .:/var/www/html:ro # Mount the application code as read-only
+    depends_on:
+      - php
+    networks:
+      - app-network
+
+# Networks to be created to facilitate communication between containers
+networks:
+  app-network:
