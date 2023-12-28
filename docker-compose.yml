@@ -16,7 +16,7 @@ services:
   nginx:
     image: nginx:alpine
     ports:
-      - "443:${PORT}" # Expose Nginx on port $PORT of the host machine
+      - "${PORT}:80" # Expose Nginx on port $PORT of the host machine
     volumes:
       - ./nginx:/etc/nginx/conf.d # Mount the Nginx config
       - .:/var/www/html:ro # Mount the application code as read-only
