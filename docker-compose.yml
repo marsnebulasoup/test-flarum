@@ -16,7 +16,7 @@ services:
   nginx:
     image: nginx:alpine
     ports:
-      - "${PORT}:80" # Expose Nginx on port $PORT of the host machine
+      - "443:${PORT}" # Expose Nginx on port $PORT of the host machine
     volumes:
       - ./nginx:/etc/nginx/conf.d # Mount the Nginx config
       - .:/var/www/html:ro # Mount the application code as read-only
@@ -24,6 +24,8 @@ services:
       - php
     networks:
       - app-network
+    environment:
+      PORT: ${PORT}
 
 # Networks to be created to facilitate communication between containers
 networks:
