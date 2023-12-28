@@ -1,87 +1,87 @@
-# flyctl launch added from vendor\axy\backtrace\.gitignore
-vendor\axy\backtrace\**\composer.lock
-vendor\axy\backtrace\**\vendor
-vendor\axy\backtrace\**\.idea
-vendor\axy\backtrace\**\phpunit.xml
-vendor\axy\backtrace\**\phpmd.xml
-vendor\axy\backtrace\**\.phpunit.result.cache
+# flyctl launch added from vendor/axy/backtrace/.gitignore
+vendor/axy/backtrace/**/composer.lock
+vendor/axy/backtrace/**/vendor
+vendor/axy/backtrace/**/.idea
+vendor/axy/backtrace/**/phpunit.xml
+vendor/axy/backtrace/**/phpmd.xml
+vendor/axy/backtrace/**/.phpunit.result.cache
 
-# flyctl launch added from vendor\components\font-awesome\.gitignore
-vendor\components\font-awesome\components
-vendor\components\font-awesome\data
-vendor\components\font-awesome\vendor
-vendor\components\font-awesome\**\composer.lock
-vendor\components\font-awesome\**\.idea
+# flyctl launch added from vendor/components/font-awesome/.gitignore
+vendor/components/font-awesome/components
+vendor/components/font-awesome/data
+vendor/components/font-awesome/vendor
+vendor/components/font-awesome/**/composer.lock
+vendor/components/font-awesome/**/.idea
 
-# flyctl launch added from vendor\fig\http-message-util\.gitignore
-vendor\fig\http-message-util\**\vendor
+# flyctl launch added from vendor/fig/http-message-util/.gitignore
+vendor/fig/http-message-util/**/vendor
 
-# flyctl launch added from vendor\franzl\whoops-middleware\.gitignore
-vendor\franzl\whoops-middleware\**\composer.phar
-vendor\franzl\whoops-middleware\**\composer.lock
-vendor\franzl\whoops-middleware\**\vendor
+# flyctl launch added from vendor/franzl/whoops-middleware/.gitignore
+vendor/franzl/whoops-middleware/**/composer.phar
+vendor/franzl/whoops-middleware/**/composer.lock
+vendor/franzl/whoops-middleware/**/vendor
 
-# flyctl launch added from vendor\psr\container\.gitignore
-vendor\psr\container\**\composer.lock
-vendor\psr\container\**\composer.phar
-vendor\psr\container\vendor
+# flyctl launch added from vendor/psr/container/.gitignore
+vendor/psr/container/**/composer.lock
+vendor/psr/container/**/composer.phar
+vendor/psr/container/vendor
 
-# flyctl launch added from vendor\psr\event-dispatcher\.gitignore
-vendor\psr\event-dispatcher\vendor
-vendor\psr\event-dispatcher\**\composer.lock
+# flyctl launch added from vendor/psr/event-dispatcher/.gitignore
+vendor/psr/event-dispatcher/vendor
+vendor/psr/event-dispatcher/**/composer.lock
 
-# flyctl launch added from vendor\pusher\pusher-php-server\.gitignore
-vendor\pusher\pusher-php-server\**\*.DS_Store
-vendor\pusher\pusher-php-server\**\test\config.php
-vendor\pusher\pusher-php-server\**\vendor
-vendor\pusher\pusher-php-server\**\composer.lock
+# flyctl launch added from vendor/pusher/pusher-php-server/.gitignore
+vendor/pusher/pusher-php-server/**/*.DS_Store
+vendor/pusher/pusher-php-server/**/test/config.php
+vendor/pusher/pusher-php-server/**/vendor
+vendor/pusher/pusher-php-server/**/composer.lock
 
-# flyctl launch added from vendor\s9e\text-formatter\.gitignore
-vendor\s9e\text-formatter\.phpunit.cache
+# flyctl launch added from vendor/s9e/text-formatter/.gitignore
+vendor/s9e/text-formatter/.phpunit.cache
 
-# flyctl launch added from vendor\swiftmailer\swiftmailer\.gitignore
-vendor\swiftmailer\swiftmailer\.php_cs.cache
-vendor\swiftmailer\swiftmailer\.phpunit
-vendor\swiftmailer\swiftmailer\.phpunit.result.cache
-vendor\swiftmailer\swiftmailer\build\*
-vendor\swiftmailer\swiftmailer\composer.lock
-vendor\swiftmailer\swiftmailer\phpunit.xml
-vendor\swiftmailer\swiftmailer\tests\acceptance.conf.php
-vendor\swiftmailer\swiftmailer\tests\smoke.conf.php
-vendor\swiftmailer\swiftmailer\vendor
+# flyctl launch added from vendor/swiftmailer/swiftmailer/.gitignore
+vendor/swiftmailer/swiftmailer/.php_cs.cache
+vendor/swiftmailer/swiftmailer/.phpunit
+vendor/swiftmailer/swiftmailer/.phpunit.result.cache
+vendor/swiftmailer/swiftmailer/build/*
+vendor/swiftmailer/swiftmailer/composer.lock
+vendor/swiftmailer/swiftmailer/phpunit.xml
+vendor/swiftmailer/swiftmailer/tests/acceptance.conf.php
+vendor/swiftmailer/swiftmailer/tests/smoke.conf.php
+vendor/swiftmailer/swiftmailer/vendor
 
-# flyctl launch added from vendor\sycho\codecs-base64vlq\.gitignore
-vendor\sycho\codecs-base64vlq\**\composer.lock
-vendor\sycho\codecs-base64vlq\**\vendor
-vendor\sycho\codecs-base64vlq\**\.idea
-vendor\sycho\codecs-base64vlq\**\phpunit.xml
-vendor\sycho\codecs-base64vlq\**\phpmd.xml
+# flyctl launch added from vendor/sycho/codecs-base64vlq/.gitignore
+vendor/sycho/codecs-base64vlq/**/composer.lock
+vendor/sycho/codecs-base64vlq/**/vendor
+vendor/sycho/codecs-base64vlq/**/.idea
+vendor/sycho/codecs-base64vlq/**/phpunit.xml
+vendor/sycho/codecs-base64vlq/**/phpmd.xml
 
-# flyctl launch added from vendor\sycho\errors\.gitignore
-vendor\sycho\errors\**\composer.lock
-vendor\sycho\errors\**\vendor
-vendor\sycho\errors\**\.idea
-vendor\sycho\errors\**\phpunit.xml
-vendor\sycho\errors\**\phpmd.xml
-vendor\sycho\errors\**\.phpunit.result.cache
+# flyctl launch added from vendor/sycho/errors/.gitignore
+vendor/sycho/errors/**/composer.lock
+vendor/sycho/errors/**/vendor
+vendor/sycho/errors/**/.idea
+vendor/sycho/errors/**/phpunit.xml
+vendor/sycho/errors/**/phpmd.xml
+vendor/sycho/errors/**/.phpunit.result.cache
 
-# flyctl launch added from vendor\sycho\sourcemap\.gitignore
-vendor\sycho\sourcemap\**\vendor
-vendor\sycho\sourcemap\**\composer.lock
-vendor\sycho\sourcemap\**\phpunit.xml
-vendor\sycho\sourcemap\**\phpmd.xml
-vendor\sycho\sourcemap\**\.idea
-vendor\sycho\sourcemap\**\tests\tmp\*
-!vendor\sycho\sourcemap\**\tests\tmp\.gitkeep
-vendor\sycho\sourcemap\**\.phpunit.result.cache
+# flyctl launch added from vendor/sycho/sourcemap/.gitignore
+vendor/sycho/sourcemap/**/vendor
+vendor/sycho/sourcemap/**/composer.lock
+vendor/sycho/sourcemap/**/phpunit.xml
+vendor/sycho/sourcemap/**/phpmd.xml
+vendor/sycho/sourcemap/**/.idea
+vendor/sycho/sourcemap/**/tests/tmp/*
+!vendor/sycho/sourcemap/**/tests/tmp/.gitkeep
+vendor/sycho/sourcemap/**/.phpunit.result.cache
 
-# flyctl launch added from vendor\symfony\service-contracts\.gitignore
-vendor\symfony\service-contracts\**\vendor
-vendor\symfony\service-contracts\**\composer.lock
-vendor\symfony\service-contracts\**\phpunit.xml
+# flyctl launch added from vendor/symfony/service-contracts/.gitignore
+vendor/symfony/service-contracts/**/vendor
+vendor/symfony/service-contracts/**/composer.lock
+vendor/symfony/service-contracts/**/phpunit.xml
 
-# flyctl launch added from vendor\symfony\translation-contracts\.gitignore
-vendor\symfony\translation-contracts\**\vendor
-vendor\symfony\translation-contracts\**\composer.lock
-vendor\symfony\translation-contracts\**\phpunit.xml
+# flyctl launch added from vendor/symfony/translation-contracts/.gitignore
+vendor/symfony/translation-contracts/**/vendor
+vendor/symfony/translation-contracts/**/composer.lock
+vendor/symfony/translation-contracts/**/phpunit.xml
 fly.toml
