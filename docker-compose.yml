@@ -14,7 +14,7 @@ services:
   nginx:
     image: nginx:alpine
     ports:
-      - "[::]10000:8080" # Expose Nginx on port 8080 of the host machine
+      - "[::]443:10000" # Expose Nginx on port 8080 of the host machine
     volumes:
       - ./nginx:/etc/nginx/conf.d # Mount the Nginx config
       - .:/var/www/html:ro # Mount the application code as read-only
